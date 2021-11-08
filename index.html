@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta char set="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <title>Boutique</title>
+        <link rel="stylesheet" href="style.css" media="screen" type="text/css"/>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">accueil</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                    <li><a href="../jeu/jeu.html">jeu</a></li>
+
+                    <div class="logo"></div>
+                    <div id="shopping" class="shopping">
+                        <i class="fas fa-shopping-cart"></i>
+                      </div>
+                </ul>
+            </nav>
+
+    <h1>Boutique</h1>
+
+      <div id="container">
+            <!-- zone de connexion -->
+
+            <form action="verification.php" method="POST">
+                <h3>Connexion</h3>
+
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='LOGIN' >
+
+            </form>
+        </div>
+</header>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.
+js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/
+materialize.min.js"></script>
+<script src="../jeu/index.js"></script>
+
+    </body>
+</html>
